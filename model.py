@@ -1,11 +1,5 @@
 """
-Soft Sensor — Improved Version
-================================
-Fixes residual analysis issues:
-  1. Cross-correlations now use the actual model input regressors (lagged),
-     not raw time series — this is the correct interpretation of Fig. 5
-  2. Grid search over n_hidden and output lags to find best whiteness
-  3. Longer training with multiple restarts to pick best model
+Soft Sensor 
 """
 
 import pandas as pd
