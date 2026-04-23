@@ -1,13 +1,5 @@
 """
-static_model_acf.py
-===================
-Two deliverables:
-  1. Static MLP model  — no time lags, just inputs at time k → output at time k
-  2. ACF / CCF plots   — autocorrelation of every variable with itself,
-                         and cross-correlation of every pair
-
-Dataset: debutanizer_full.csv  (2394 samples, 8 columns: u1-u7, y)
-All values already normalised [0, 1].
+static_model_acf
 """
 import numpy as np
 import pandas as pd
